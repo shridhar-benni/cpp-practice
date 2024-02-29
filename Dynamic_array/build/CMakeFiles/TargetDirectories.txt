@@ -1,0 +1,3 @@
+/mnt/f/Cpp_programs/Dynamic_array/build/CMakeFiles/rebuild_cache.dir
+/mnt/f/Cpp_programs/Dynamic_array/build/CMakeFiles/edit_cache.dir
+/mnt/f/Cpp_programs/Dynamic_array/build/CMakeFiles/Dynamic_Array.dir
