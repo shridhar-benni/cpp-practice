@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/f/Cpp_programs/linked_list
+# Install script for directory: /mnt/f/Git_Hub/C-Cpp_prorams/linked_list
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/f/Cpp_programs/linked_list/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/f/Git_Hub/C-Cpp_prorams/linked_list/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
