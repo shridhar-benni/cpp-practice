@@ -1,3 +1,0 @@
-/mnt/f/Git_Hub/C-Cpp_prorams/linked_list/build/CMakeFiles/rebuild_cache.dir
-/mnt/f/Git_Hub/C-Cpp_prorams/linked_list/build/CMakeFiles/edit_cache.dir
-/mnt/f/Git_Hub/C-Cpp_prorams/linked_list/build/CMakeFiles/linked_list.dir

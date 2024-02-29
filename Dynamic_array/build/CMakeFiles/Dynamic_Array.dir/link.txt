@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Dynamic_Array.dir/main.cpp.o  -o Dynamic_Array 

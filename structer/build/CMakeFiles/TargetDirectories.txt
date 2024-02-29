@@ -1,3 +1,0 @@
-/mnt/f/Cpp_programs/structer/build/CMakeFiles/rebuild_cache.dir
-/mnt/f/Cpp_programs/structer/build/CMakeFiles/edit_cache.dir
-/mnt/f/Cpp_programs/structer/build/CMakeFiles/Structure.dir
