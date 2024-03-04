@@ -9,9 +9,12 @@ struct node{
 
 int main(){
 	node *n1, *n2, *n3;
-	n1 = new node();
-	n2 = new node();
-	n3 = new node();
+	n1 = new(nothrow) node();
+	if(!n1) cout<<"Memory allocation failed for n1"<<endl;
+	n2 = new(nothrow) node();
+	if(!n2) cout<<"Memory allocation failed for n2"<<endl;
+	n3 = new(nothrow) node();
+	if(!n3) cout<<"Memory allocation failed for n3"<<endl;
 
 	n1->val = 1;
 	n1->next = n2; 
@@ -30,6 +33,10 @@ int main(){
 	cout<<"n1->val: "<<n1->val<<endl;
 	cout<<"n1->next->val: "<<n1->next->val<<endl;
 	cout<<"n1->next->next->val: "<<n1->next->next->val<<endl;
+
+	delete n3;
+	delete n2;
+	delete n1;	
 	cout<<endl;
 	return 0;
 }
