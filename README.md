@@ -31,7 +31,7 @@ cpp-practice/
 ### Compilation and Execution
 To compile and run a C++ program:
 ```sh
- g++ filename.cpp -o output
+ g++ *.cpp -o output
  ./output
 ```
 
