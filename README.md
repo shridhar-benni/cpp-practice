@@ -5,11 +5,7 @@ Welcome to my C++ practice repository! This repository contains various C++ prog
 ## 📌 About
 This repository serves as a collection of C++ programs covering:
 - Data Structures and Algorithms (DSA)
-- Object-Oriented Programming (OOP)
-- Competitive Programming Problems
-- Standard Template Library (STL)
-- System Design and Optimization
-- Miscellaneous C++ Concepts and Experiments
+- basics
 
 ## 📂 Repository Structure
 ```
