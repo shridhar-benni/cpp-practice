@@ -1,42 +1,41 @@
-#include <iostream>
-using namespace std;
-
-struct node{
-	int val;
-	//struct *node next;
-	struct node *next;
-};
+#include "header.h"
 
 int main(){
-	node *n1, *n2, *n3;
-	n1 = new(nothrow) node();
-	if(!n1) cout<<"Memory allocation failed for n1"<<endl;
-	n2 = new(nothrow) node();
-	if(!n2) cout<<"Memory allocation failed for n2"<<endl;
-	n3 = new(nothrow) node();
-	if(!n3) cout<<"Memory allocation failed for n3"<<endl;
 
-	n1->val = 1;
-	n1->next = n2; 
-	n2->val = 2;
-	n2->next = n3;
-	n3->val = 3;
-	n3->next = NULL;
+    //acess_node_WO_pointer();
 
-	cout<<"(*n1).val: "<<(*n1).val<<" n1->val: "<<n1->val<<endl;
-	cout<<"(*n2).val: "<<(*n2).val<<" n2->val: "<<n2->val<<endl;
-	cout<<"(*n3).val: "<<(*n3).val<<" n3->val: "<<n3->val<<endl;
-	cout<<"n1: "<<n1<<endl;
-	cout<<"n2: "<<n2<<" n1->next: "<<n1->next<<endl;
-	cout<<"n3: "<<n3<<" n2->next: "<<n2->next<<endl;
-	cout<<"n3->next: "<<n3->next<<endl;
-	cout<<"n1->val: "<<n1->val<<endl;
-	cout<<"n1->next->val: "<<n1->next->val<<endl;
-	cout<<"n1->next->next->val: "<<n1->next->next->val<<endl;
+    //acess_node_W_pointer();
 
-	delete n3;
-	delete n2;
-	delete n1;	
-	cout<<endl;
-	return 0;
+    LinkedLisit List;
+
+    List.display();
+
+    cout<<"Inserting 4 at position 2 beginning."<<endl;
+    List.insert_at_position(2, 4);
+
+    cout<<"Inserting 5 at beginning."<<endl;
+    List.insert_at_beginning(5);
+
+    cout<<"Inserting 6 at beginning."<<endl;
+    List.insert_at_beginning(6);
+
+    cout<<"Inserting 7 at end."<<endl;
+    List.insert_at_end(7);
+
+    cout<<"Inserting 4 at position 2."<<endl;
+    List.insert_at_position(2, 4);
+
+    cout<<"Inserting 5 at position 6."<<endl;
+    List.insert_at_position(6, 5);
+    List.display();
+
+    cout<<"Deleting node at position 2."<<endl;
+    List.delete_node(2);
+    List.display();
+
+    cout<<"Deleting node at position 5."<<endl;
+    List.delete_node(5);
+    List.display();
+
+    return 0;
 }
