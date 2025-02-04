@@ -15,11 +15,7 @@ This repository serves as a collection of C++ programs covering:
 ```
 cpp-practice/
 │── algorithms/        # Sorting, searching, recursion, etc.
-│── data_structures/   # Linked lists, stacks, queues, trees, graphs, etc.
-│── oop/               # Classes, inheritance, polymorphism, etc.
-│── competitive/       # Solutions to coding challenges
-│── stl/               # C++ STL implementations and examples
-│── misc/              # Miscellaneous C++ programs
+│── basics/            # data types etc.
 │── README.md          # This file
 ```
 
